@@ -1,0 +1,59 @@
+
+
+.features-container {
+  display: flex;
+  flex-direction: column; /* Mantém os cartões em coluna */
+  align-items: center; /* Centraliza os cartões horizontalmente */
+  border: none; /* Remove a borda */
+  box-shadow: none;
+}
+
+.feature-item {
+  width: 80%; /* Ajuste a largura dos cartões */
+  max-width: 400px; /* Limite a largura máxima dos cartões */
+  margin: 5px 0; /* Espaçamento entre os cartões */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo do item */
+  border: none; /* Remove a borda */
+  box-shadow: none; /* Remove a sombra, se houver */
+}
+
+.feature-card {
+  margin: 5px 0; /* Espaçamento entre os cartões */
+  width: 80%; /* Ajuste a largura dos cartões */
+  max-width: 400px; /* Limite a largura máxima dos cartões */
+  border: none; /* Remove a borda */
+  box-shadow: none; /* Remove a sombra, se houver */
+}
+
+.align-left {
+  justify-content: flex-start; /* Alinha à esquerda */
+  text-align: right;
+}
+
+.align-right {
+  justify-content: flex-end; /* Alinha à direita */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #673ab7; /* Cor roxa */
+  border-radius: 50%; /* Torna o contêiner circular */
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  height: 40px; /* Ajuste o tamanho conforme necessário */
+  margin: 0 auto; /* Centraliza o círculo no cartão */
+  position: relative; /* Para posicionar o ícone corretamente */
+}
+
+.feature-icon {
+  color: white; /* Cor do ícone */
+  font-size: 24px; /* Tamanho do ícone */
+}
+
+.card-content {
+  display: flex; /* Alinha os itens em linha */
+  align-items: center; /* Centraliza verticalmente */
+}
+

@@ -1,0 +1,51 @@
+.cadastro-card {
+  max-width: 400px;
+  margin: 5em auto; /* Centraliza o cartão na página */
+  border: none;
+  box-shadow: none;
+}
+
+mat-card-header {
+  width: 93%;
+  background-color: #673ab7; /* Cor do cabeçalho */
+  color: white; /* Cor do texto no cabeçalho */
+  margin-bottom: 3%;
+  border-radius: 2em 2em 0em 0em;
+}
+
+.full-width {
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%; /* Garante que todos os campos ocupem 100% */
+}
+
+/* Estilo para manter o label visível */
+mat-form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-label {
+  color: rgba(0, 0, 0, 0.6); /* Cor padrão */
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  clip-path: none !important;
+}
+
+.mat-form-field {
+  clip-path: none !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin-top: 20px; /* Espaçamento acima do botão, se necessário */
+}
+
+.erro{
+  font-size: .75em;
+  color: #673ab7;
+}

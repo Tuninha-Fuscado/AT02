@@ -1,0 +1,24 @@
+.not-found-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 94vh; /* Garante que o conteúdo seja centralizado verticalmente */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px;
+}
+
+.not-found-image {
+  max-width: 10%; /* Define a largura máxima para 50% do container */
+  height: auto;
+  margin-bottom: 1%; /* Espaço entre a imagem e o texto */
+}
+
+mat-card-content h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+mat-card-content p {
+  font-size: 18px;
+}

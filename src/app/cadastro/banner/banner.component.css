@@ -1,0 +1,45 @@
+.home-banner {
+  background-color: #673ab7;
+  color: white;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 0%;
+  padding-bottom: 1%;
+  min-height: 11.8rem;
+}
+
+.home-banner mat-card-header {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-banner mat-card-title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.home-banner mat-card-subtitle {
+  color: white;
+  font-size: 1em; /* Aumentando o tamanho do subtítulo */
+  margin-bottom: 10px; /* Espaçamento abaixo do subtítulo */
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+mat-card-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+mat-divider {
+  margin: 2% 0; /* Margem acima e abaixo do divisor */
+  background-color: white; /* Temporariamente adicione uma cor de fundo */
+  height: 1%; /* Defina uma altura para ver o divisor */
+}

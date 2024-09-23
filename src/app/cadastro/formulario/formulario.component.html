@@ -1,0 +1,58 @@
+<mat-card class="cadastro-card">
+  <mat-card-content>
+    <form>
+      <div class="example-container">
+        <mat-form-field>
+          <mat-label>Nome</mat-label>
+          <input id="nome" matInput>
+          @if(erroNome){
+            <p class="erro">
+              Nome é obrigatório.
+            </p>
+          }
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>E-mail</mat-label>
+          <input id="email" matInput>
+          @if(erroEmail){
+            <p class="erro">
+              E-mail inválido.
+            </p>
+          }
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Senha</mat-label>
+          <input id="senha" matInput>
+          @if(erroSenha){
+            <p class="erro">
+              Senha é obrigatória.
+            </p>
+          }
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Confirmar senha</mat-label>
+          <input id="confirmarSenha" matInput>
+          @if(erroSenha){
+            <p class="erro">
+              Confirmar Senha é obrigatório.
+            </p>
+          }
+
+          @if(senhaDiferentes){
+            <p class="erro">
+              As senhas não coincidem.
+            </p>
+          }
+        </mat-form-field>
+      </div>
+
+      <div class="button-container">
+        <button mat-raised-button color="primary" type="button" (click)="Cadastrar()">Cadastrar</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>
+

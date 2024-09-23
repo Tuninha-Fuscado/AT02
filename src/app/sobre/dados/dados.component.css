@@ -1,0 +1,56 @@
+.sobre-card {
+  max-width: 600px;
+  margin: 1% auto; /* Centraliza o cartão na página */
+  padding: 1%;
+  text-align: center; /* Centraliza o texto dentro do cartão */
+  background-color: #ffffff; /* Cor de fundo branca */
+  box-shadow: none;
+  border: none; /* Remove a borda */
+}
+
+.header-center {
+  display: flex; /* Ativa o modo flex */
+  flex-direction: column; /* Organiza em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  text-align: center; /* Centraliza o texto */
+}
+
+.mat-title {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.mat-subtitle {
+  font-size: 1.1em;
+  color: gray;
+}
+
+mat-card-content h4 {
+  font-weight: bold;
+}
+
+mat-card-content p {
+  font-size: 1em; /* Tamanho da fonte para a biografia */
+  line-height: 1.5; /* Melhora a legibilidade */
+  margin: 1% 0; /* Espaçamento ao redor do texto */
+}
+
+mat-divider {
+  margin: 1em auto; /* Espaçamento acima e abaixo da divisória */
+  background-color: #d4d4d4; /* Altere para a cor desejada */
+  height: .02em; /* Espessura da divisória */
+  width: 90% /* Espessura da divisória */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centraliza a imagem */
+  margin-bottom: 1%; /* Espaçamento abaixo da imagem */
+}
+
+.profile-image {
+  width: 6em; /* Largura da imagem */
+  height: 6em; /* Altura da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  object-fit: cover; /* Mantém a proporção da imagem */
+}
